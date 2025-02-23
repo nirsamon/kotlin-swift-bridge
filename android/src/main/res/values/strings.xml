@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="module_name">KotlinSwiftBridge</string>
+
+    <!--Events-->
+    <string name="event_on_ble_scan">EVENT_ON_BLE_SCAN</string>
+    <string name="string_on_ble_scan">onBleScan</string>
+    
+</resources>
