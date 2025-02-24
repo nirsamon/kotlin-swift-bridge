@@ -102,9 +102,9 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
 
-    implementation files("libs/controller-debug.aar")
-    implementation files("libs/common-debug.aar")
-    implementation files("libs/blescanner-debug.aar")
+    implementation files("libs/controller-${build_type}-${module_version}.aar")
+    implementation files("libs/common-${build_type}-${module_version}.aar")
+    implementation files("libs/blescanner-${build_type}-${module_version}.aar")
 }
 
 if (isNewArchitectureEnabled()) {
